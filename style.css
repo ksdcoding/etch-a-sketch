@@ -1,0 +1,17 @@
+:root {
+  --grid-columns: 64;
+  --grid-rows: 64;
+}
+
+.grid-container {
+  display: grid;
+  height: 640px;
+  width: 640px;
+
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+}
+
+.gridDiv {
+
+}
